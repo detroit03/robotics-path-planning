@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "algorithm": "A*",
+      "obstacle_density": "low",
+      "max_speed": 4.0,
+      "travel_time": 23.04,
+      "plan_time_ms": 0.20,
+      "path_steps": 16,
+      "success": true
+    },
+    {
+      "algorithm": "Dijkstra",
+      "obstacle_density": "low",
+      "max_speed": 4.0,
+      "travel_time": 22.82,
+      "plan_time_ms": 0.70,
+      "path_steps": 16,
+      "success": true
+    },
+    {
+      "algorithm": "RRT",
+      "obstacle_density": "low",
+      "max_speed": 4.0,
+      "travel_time": 24.58,
+      "plan_time_ms": 0.20,
+      "path_steps": 4,
+      "success": true
+    }
+  ]
+}

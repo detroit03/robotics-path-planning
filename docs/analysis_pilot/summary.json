@@ -1,0 +1,357 @@
+{
+  "record_count": 1,
+  "expected_repeats": 3,
+  "completed_cells": 0,
+  "total_cells": 27,
+  "warnings": [
+    "Experiment matrix incomplete: 0/27 cells have 3 distinct seeds.",
+    "Single-run groups have no sample standard deviation; no statistical significance is claimed."
+  ],
+  "groups": [
+    {
+      "algorithm": "A*",
+      "density": "low",
+      "speed": "slow",
+      "runs": 1,
+      "successes": 1,
+      "success_rate": 1.0,
+      "seeds": [
+        7
+      ],
+      "failures": {},
+      "plan_ms": {
+        "n": 1,
+        "mean": 3.3167999936267734,
+        "median": 3.3167999936267734,
+        "min": 3.3167999936267734,
+        "max": 3.3167999936267734
+      },
+      "initial_plan_ms": {
+        "n": 1,
+        "mean": 1.6375999839510769,
+        "median": 1.6375999839510769,
+        "min": 1.6375999839510769,
+        "max": 1.6375999839510769
+      },
+      "travel_time": {
+        "n": 1,
+        "mean": 44.160000000000004,
+        "median": 44.160000000000004,
+        "min": 44.160000000000004,
+        "max": 44.160000000000004
+      },
+      "path_length_m": {
+        "n": 1,
+        "mean": 2.8177867384766704,
+        "median": 2.8177867384766704,
+        "min": 2.8177867384766704,
+        "max": 2.8177867384766704
+      },
+      "planned_path_length_m": {
+        "n": 1,
+        "mean": 2.7470562748477145,
+        "median": 2.7470562748477145,
+        "min": 2.7470562748477145,
+        "max": 2.7470562748477145
+      },
+      "path_efficiency": {
+        "n": 1,
+        "mean": 0.8389284021726285,
+        "median": 0.8389284021726285,
+        "min": 0.8389284021726285,
+        "max": 0.8389284021726285
+      },
+      "replans": {
+        "n": 1,
+        "mean": 2,
+        "median": 2,
+        "min": 2,
+        "max": 2
+      },
+      "obstacle_events": {
+        "n": 1,
+        "mean": 8,
+        "median": 8,
+        "min": 8,
+        "max": 8
+      },
+      "unrecorded_metrics": [
+        "collisions",
+        "failed_duration_s"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "algorithm": "A*",
+      "density": "low",
+      "speed": "slow",
+      "runs": 1,
+      "distinct_seeds": 1,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 2
+    },
+    {
+      "algorithm": "A*",
+      "density": "low",
+      "speed": "medium",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "A*",
+      "density": "low",
+      "speed": "fast",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "A*",
+      "density": "medium",
+      "speed": "slow",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "A*",
+      "density": "medium",
+      "speed": "medium",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "A*",
+      "density": "medium",
+      "speed": "fast",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "A*",
+      "density": "high",
+      "speed": "slow",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "A*",
+      "density": "high",
+      "speed": "medium",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "A*",
+      "density": "high",
+      "speed": "fast",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "Dijkstra",
+      "density": "low",
+      "speed": "slow",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "Dijkstra",
+      "density": "low",
+      "speed": "medium",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "Dijkstra",
+      "density": "low",
+      "speed": "fast",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "Dijkstra",
+      "density": "medium",
+      "speed": "slow",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "Dijkstra",
+      "density": "medium",
+      "speed": "medium",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "Dijkstra",
+      "density": "medium",
+      "speed": "fast",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "Dijkstra",
+      "density": "high",
+      "speed": "slow",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "Dijkstra",
+      "density": "high",
+      "speed": "medium",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "Dijkstra",
+      "density": "high",
+      "speed": "fast",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "RRT",
+      "density": "low",
+      "speed": "slow",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "RRT",
+      "density": "low",
+      "speed": "medium",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "RRT",
+      "density": "low",
+      "speed": "fast",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "RRT",
+      "density": "medium",
+      "speed": "slow",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "RRT",
+      "density": "medium",
+      "speed": "medium",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "RRT",
+      "density": "medium",
+      "speed": "fast",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "RRT",
+      "density": "high",
+      "speed": "slow",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "RRT",
+      "density": "high",
+      "speed": "medium",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    },
+    {
+      "algorithm": "RRT",
+      "density": "high",
+      "speed": "fast",
+      "runs": 0,
+      "distinct_seeds": 0,
+      "expected_repeats": 3,
+      "complete": false,
+      "missing_repeats": 3
+    }
+  ],
+  "infrastructure_errors": []
+}
